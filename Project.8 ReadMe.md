@@ -23,11 +23,6 @@ Description: Testing Blue vulnerability by typing in id=1%27 in the url. However
 
 ![Animation](https://user-images.githubusercontent.com/89667680/140221356-a1eaa62f-a139-484a-b1cb-ac802095a6df.gif)
 
-Vulnerability #2: __________________
-
-Description:
-
-<img src="blue-vuln2.gif">
 
 ## Green
 
@@ -36,11 +31,7 @@ Vulnerability #1:User Enumeration
 Description: A username that does not exist, message pops up "log in was unsuccesful". However, message "log in was unsuccessful" will become bold when I use a user that already exist. 
 ![green-vuln1](https://user-images.githubusercontent.com/89667680/140232383-1fe3eacc-fa2f-4c67-ba30-3d2b6cbdc202.gif)
 
-Vulnerability #2: __________________
 
-Description:
-
-<img src="green-vuln2.gif">
 
 
 ## Red
@@ -52,13 +43,14 @@ Description: I moditifed the url and inserted different ID numbers at the end, w
 ![red-vuln1](https://user-images.githubusercontent.com/89667680/140252764-17603b01-ed88-4de7-ba67-6a14900ab741.gif)
 
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery
 
-Description:
+Description: In this vulnerability the site takes in the post request, which if from a different source. However, the source is a hidden form and makes it accessable to the users database.
 
-<img src="red-vuln2.gif">
+![red-vuln2](https://user-images.githubusercontent.com/89667680/140440405-151af406-3d7e-4fd5-8306-d8e32178cb3e.gif)
+
 
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The challenge I encourtered where being confused on how to do the cross-site request forgery. I received an error message on logging in, however was successful once I remebered the password. 
