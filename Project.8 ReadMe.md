@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 8 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -47,7 +47,7 @@ Description:
 
 Vulnerability #1: Insecure Direct Object Reference
 
-Description: 
+Description: I moditifed the url and inserted different ID numbers at the end, which can assist in gathering private information of the specificc salespersons. This shows the unsecured privacy that an attacked can receive. 
 
 ![red-vuln1](https://user-images.githubusercontent.com/89667680/140252764-17603b01-ed88-4de7-ba67-6a14900ab741.gif)
 
